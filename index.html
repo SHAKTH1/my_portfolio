@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class ="logo">SHAKTHI SRIHARAN</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class ="logo">SHAKTHI SRIHARAN</div>
+         <div class ="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+                <div>
+                    <div class="menu-links">
+                <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                <li><a href="#projects" onclick="togglemenu()">projects</a></li>
+                <li><a href="#contact" onclick="togglemenu()">contact</a></li>
+                    </div>
+                </div>
+            </div>
+         </div>  
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="assets/profile-pic.jpg" alt="shakthi profile-pic" />
+
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">hello, I'm</p>
+            <h1 class = "title">shakthi</h1>
+            <h3><span id="multiple-text"></span></h3>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./shakthi_resume.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+<div id="social-container">
+    <img src="./assets/linkedin.png" alt="My linkdin"
+    class="icon" onclick="location.href='https://linkedin.com/company/faangpath'">
+    <img src="./assets/github.png" alt="My linkdin"
+    class="icon" onclick="location.href='https://github.com/SHAKTH1/'">
+</div>
+        </div>
+    </section>
+    <section id="about">
+      <p class="section_text_p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section_pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Fresher <br />Web Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.E Bachelors of Engineerings<br>B.M.S College of Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                As a skilled software engineer, I excel in crafting innovative solutions that leverage cutting-edge technologies. With
+                expertise in machine learning, C++, and proficiency in web development frameworks.Armed with a solid foundation
+                in languages like HTML, CSS, and JavaScript, coupled with extensive experience in backend technologies like MySQL
+                and PHP, I have a proven track record of delivering high-quality web solutions
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <p class="section_text_p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">SKILLS</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>AngularJS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PHP</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">SKILLS</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Machine Learning</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <section id="experience1">
+        <div class="section-content">
+          <p class="section_text_p1">Explore My</p>
+          <h1 class="title">Experience</h1>
+          <div class="details-container1">
+            <div class="exp-info">
+              <h3>Intern at Compwallah</h3>
+              <p>Role: Web Developer and Design Intern</p>
+              <p>Start Date: 15/03/2024 || End Date: 02/05/2024</p>
+              <p><strong>Responsibilities:</strong></p>
+              <ul>
+                <li>Developing and maintaining website features and functionality.</li>
+                <li>Participating in team meetings and brainstorming sessions.</li>
+                <li>Assisting with website design projects.</li>
+                <li>Conducting research and analysis to support design decisions.</li>
+                <li>Contributing to the development of web applications and tools.</li>
+                <li>Received positive feedback from supervisors on the quality and timeliness of project deliverables.</li>
+                <li>Demonstrated strong problem-solving skills and creativity in resolving design challenges.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    </section>
+    <section class="project" id="projects">
+      <p class="section_text_p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class ="project-container">
+        <div class="project-box">
+          <img src="./assets/project-1.png" alt="">
+          <div class="project-layer">
+            <h2 class="project-title">CRICKET WIN PREDICTOR<br>
+              (MACHINE LEARNING,PYTHON)</h2>
+            <div class = "btn-container">
+            <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/SHAKTH1/Cricket_win_predictor/'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class = "btn-container">
+          <div class="project-box">
+            <img src="./assets/project-2.png" alt="">
+            <div class="project-layer">
+              <h2 class="project-title">FRAUD DETECTION SYSTEM<br> 
+                (ML,FLASK,ANGULARJS,HTML,CSS)
+              </h2>
+              <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/SHAKTH1/fraud_detection_system/'"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class = "btn-container">
+            <div class="project-box">
+              <img src="./assets/project-3.png" alt="">
+              <div class="project-layer">
+                <h2 class="project-title">E VISUAL<br>
+                  (HTML,CSS,JAVASCRIPT,MYSQL,PHP,IOT)
+                </h2>
+                <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/SHAKTH1/E-VISUAL'"
+                  >
+                    Github
+                  </button>
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/SHAKTH1/research_paper/'"
+                  >
+                    Research Paper
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class = "btn-container">
+              <div class="project-box">
+                <img src="./assets/project-4.png" alt="">
+                <div class="project-layer">
+                  <h2 class="project-title">COVID-19<br>
+                    (HTML, CSS, ANGULARJS)
+                  </h2>
+                  <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://github.com/SHAKTH1/covid_19/'"
+                    >
+                      Github
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class = "btn-container">
+                <div class="project-box">
+                  <img src="./assets/project-5.png" alt="">
+                  <div class="project-layer">
+                    <h2 class="project-title">ONLINE EXAMINATION SYSTEM <br>
+                      (HTML,CSS,MYSQL,PHP)</h2>
+                    <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/SHAKTH1/ONLINE-EXAMINATION-SYSTEM/'"
+                      >
+                        Github
+                      </button>
+                    </div>
+                  </div>
+                </div>
+      </div>
+    </section>
+    <section id="contact">
+      <p class="section_text_p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">shakthi.amarnath@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://linkedin.com/company/faangpath">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Shakthi. All Rights Reserved.</p>
+    </footer>
+    <script src ="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</body>
+</html>
