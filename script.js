@@ -6,7 +6,7 @@ function togglemenu() {
 }
 
 
-var typed = new Typed('#multiple-text',{
+var typed = new Typed('.typing-text',{
     strings: ['Web Developer','Frontend Developer','Backend Developer'],
     typeSpeed: 100,
     backSpeed: 100,
