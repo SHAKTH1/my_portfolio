@@ -13,4 +13,6 @@ HOW TO RUN THE APPLICATION
 2--> you can use (live server extension from vscode) to run the "index.html" file as localhost 
 3--> you can also click the link below to view the portfolio from either mobile or a computer 
 
- 
+link - https://my-portfolio-shakthi.netlify.app/
+
+Thank you will be waiting for the next assignment.!!
